@@ -10,7 +10,7 @@ void Zadacha19()
         
       if (str[0] == str[4] && str[1] == str[3])   Console.WriteLine("Число : " + N + " палиндром ");
       else Console.WriteLine("Число : " + N + " не является палиндром ");
-       if (str.Length > 5 && str.Length < 5) Console.WriteLine("Введите корректные данные");
+       if (str.Length > 5 || str.Length < 5) Console.WriteLine("Введите корректные данные");
 
 }
 Zadacha19();
